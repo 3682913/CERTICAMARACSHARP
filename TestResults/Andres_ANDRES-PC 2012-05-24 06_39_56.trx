@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="86ee7f5a-3380-4046-9099-9148041d5a2b" name="Andres@ANDRES-PC 2012-05-24 06:39:56" runUser="Andres-PC\Andres" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7f7fc7d1-7e94-415d-9175-777b81af175b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Andres_ANDRES-PC 2012-05-24 06_39_56">
+      <DeploymentItem filename="C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\Calculator\bin\Debug\Calculator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-24T06:39:56.4373975-05:00" queuing="2012-05-24T06:39:56.4593987-05:00" start="2012-05-24T06:39:56.4653991-05:00" finish="2012-05-24T06:39:56.6964123-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="4" executed="4" passed="3" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="empty_string" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="621079d6-8336-000a-8869-87123a3c877d">
+      <Execution id="0ca2596b-3665-455d-84a9-1f4fceaac57b" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="empty_string" />
+    </UnitTest>
+    <UnitTest name="two_numbers" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7">
+      <Execution id="aa4a686b-1083-48f2-b7c5-2b3958bc905d" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="two_numbers" />
+    </UnitTest>
+    <UnitTest name="one_number" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="8ba150d3-9f32-7fe0-2510-d0c4df829962">
+      <Execution id="7364bd96-5a60-4e33-b97a-57d60f62482b" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="one_number" />
+    </UnitTest>
+    <UnitTest name="un_known_amount_of_numbers" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="2bf53988-bf24-42bd-c4fc-4456697d7912">
+      <Execution id="efd9e0ab-eb54-48ae-ba26-517060705d31" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="un_known_amount_of_numbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2bf53988-bf24-42bd-c4fc-4456697d7912" executionId="efd9e0ab-eb54-48ae-ba26-517060705d31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="621079d6-8336-000a-8869-87123a3c877d" executionId="0ca2596b-3665-455d-84a9-1f4fceaac57b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ba150d3-9f32-7fe0-2510-d0c4df829962" executionId="7364bd96-5a60-4e33-b97a-57d60f62482b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7" executionId="aa4a686b-1083-48f2-b7c5-2b3958bc905d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="efd9e0ab-eb54-48ae-ba26-517060705d31" testId="2bf53988-bf24-42bd-c4fc-4456697d7912" testName="un_known_amount_of_numbers" computerName="ANDRES-PC" duration="00:00:00.0537434" startTime="2012-05-24T06:39:56.4713994-05:00" endTime="2012-05-24T06:39:56.6704108-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="efd9e0ab-eb54-48ae-ba26-517060705d31">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method NUnitTest.StringCalculatorTest.un_known_amount_of_numbers threw exception: 
+System.FormatException: Input string was not in a correct format.</Message>
+          <StackTrace>    at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)
+   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   at System.Int32.Parse(String s)
+   at Calculator.StringCalculator.add(String number) in C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\Calculator\StringCalculator.cs:line 28
+   at NUnitTest.StringCalculatorTest.un_known_amount_of_numbers() in C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\StringCalculatorTest.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ca2596b-3665-455d-84a9-1f4fceaac57b" testId="621079d6-8336-000a-8869-87123a3c877d" testName="empty_string" computerName="ANDRES-PC" duration="00:00:00.0002540" startTime="2012-05-24T06:39:56.6714108-05:00" endTime="2012-05-24T06:39:56.6764111-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ca2596b-3665-455d-84a9-1f4fceaac57b">
+    </UnitTestResult>
+    <UnitTestResult executionId="7364bd96-5a60-4e33-b97a-57d60f62482b" testId="8ba150d3-9f32-7fe0-2510-d0c4df829962" testName="one_number" computerName="ANDRES-PC" duration="00:00:00.0001934" startTime="2012-05-24T06:39:56.6774112-05:00" endTime="2012-05-24T06:39:56.6814114-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7364bd96-5a60-4e33-b97a-57d60f62482b">
+    </UnitTestResult>
+    <UnitTestResult executionId="aa4a686b-1083-48f2-b7c5-2b3958bc905d" testId="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7" testName="two_numbers" computerName="ANDRES-PC" duration="00:00:00.0001862" startTime="2012-05-24T06:39:56.6824115-05:00" endTime="2012-05-24T06:39:56.6854116-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aa4a686b-1083-48f2-b7c5-2b3958bc905d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

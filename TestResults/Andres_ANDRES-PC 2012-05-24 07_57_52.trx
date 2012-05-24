@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="8714e14e-7074-44e1-a70c-817fd09ccf05" name="Andres@ANDRES-PC 2012-05-24 07:57:52" runUser="Andres-PC\Andres" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7f7fc7d1-7e94-415d-9175-777b81af175b">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Andres_ANDRES-PC 2012-05-24 07_57_52">
+      <DeploymentItem filename="C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\Calculator\bin\Debug\Calculator.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-05-24T07:57:52.8108707-05:00" queuing="2012-05-24T07:57:52.8348721-05:00" start="2012-05-24T07:57:52.8398724-05:00" finish="2012-05-24T07:57:53.0748858-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="8" executed="8" passed="7" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="no_more_than_1000" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="b7c03255-b974-aa6e-aa17-c7bdf9a317f1">
+      <Execution id="20568a2e-f215-46d9-8c72-dcc5a7399d51" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="no_more_than_1000" />
+    </UnitTest>
+    <UnitTest name="empty_string" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="621079d6-8336-000a-8869-87123a3c877d">
+      <Execution id="8eb5d2b7-359a-455e-9411-3dcb0038cbf9" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="empty_string" />
+    </UnitTest>
+    <UnitTest name="new_lines_between_numbers" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="7611aac2-710c-ca53-b968-e584743eac76">
+      <Execution id="f087a893-08af-44ec-aaf8-6e93717d9ce7" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="new_lines_between_numbers" />
+    </UnitTest>
+    <UnitTest name="negatives_not_allowed" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="6a1f6c90-fad4-10ba-8b10-b4829103f0c8">
+      <Execution id="150460d0-b0b3-4b03-b9a9-e4510966acc4" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="negatives_not_allowed" />
+    </UnitTest>
+    <UnitTest name="un_known_amount_of_numbers" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="2bf53988-bf24-42bd-c4fc-4456697d7912">
+      <Execution id="fe76d1f7-f5eb-4b69-930c-c8ee2781a3c9" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="un_known_amount_of_numbers" />
+    </UnitTest>
+    <UnitTest name="support_different_delimiters" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="807c457b-2550-9129-3164-14cfd598285d">
+      <Execution id="9ff846f2-58e4-4f53-9bdf-b778b854db13" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="support_different_delimiters" />
+    </UnitTest>
+    <UnitTest name="one_number" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="8ba150d3-9f32-7fe0-2510-d0c4df829962">
+      <Execution id="fb53d5c2-575e-4952-8d2f-b14d58d3e029" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="one_number" />
+    </UnitTest>
+    <UnitTest name="two_numbers" storage="c:\users\andres\documents\visual studio 2010\projects\calculator\nunittest\bin\debug\nunittest.dll" id="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7">
+      <Execution id="1dd71830-d8bf-4805-aa4f-26668ebf50e1" />
+      <TestMethod codeBase="C:/Users/Andres/Documents/Visual Studio 2010/Projects/Calculator/NUnitTest/bin/Debug/NUnitTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NUnitTest.StringCalculatorTest, NUnitTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="two_numbers" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="2bf53988-bf24-42bd-c4fc-4456697d7912" executionId="fe76d1f7-f5eb-4b69-930c-c8ee2781a3c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="621079d6-8336-000a-8869-87123a3c877d" executionId="8eb5d2b7-359a-455e-9411-3dcb0038cbf9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a1f6c90-fad4-10ba-8b10-b4829103f0c8" executionId="150460d0-b0b3-4b03-b9a9-e4510966acc4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7611aac2-710c-ca53-b968-e584743eac76" executionId="f087a893-08af-44ec-aaf8-6e93717d9ce7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="807c457b-2550-9129-3164-14cfd598285d" executionId="9ff846f2-58e4-4f53-9bdf-b778b854db13" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ba150d3-9f32-7fe0-2510-d0c4df829962" executionId="fb53d5c2-575e-4952-8d2f-b14d58d3e029" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b7c03255-b974-aa6e-aa17-c7bdf9a317f1" executionId="20568a2e-f215-46d9-8c72-dcc5a7399d51" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7" executionId="1dd71830-d8bf-4805-aa4f-26668ebf50e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fe76d1f7-f5eb-4b69-930c-c8ee2781a3c9" testId="2bf53988-bf24-42bd-c4fc-4456697d7912" testName="un_known_amount_of_numbers" computerName="ANDRES-PC" duration="00:00:00.0168832" startTime="2012-05-24T07:57:52.8428726-05:00" endTime="2012-05-24T07:57:53.0098821-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe76d1f7-f5eb-4b69-930c-c8ee2781a3c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="8eb5d2b7-359a-455e-9411-3dcb0038cbf9" testId="621079d6-8336-000a-8869-87123a3c877d" testName="empty_string" computerName="ANDRES-PC" duration="00:00:00.0002257" startTime="2012-05-24T07:57:53.0118822-05:00" endTime="2012-05-24T07:57:53.0158825-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8eb5d2b7-359a-455e-9411-3dcb0038cbf9">
+    </UnitTestResult>
+    <UnitTestResult executionId="150460d0-b0b3-4b03-b9a9-e4510966acc4" testId="6a1f6c90-fad4-10ba-8b10-b4829103f0c8" testName="negatives_not_allowed" computerName="ANDRES-PC" duration="00:00:00.0133594" startTime="2012-05-24T07:57:53.0178826-05:00" endTime="2012-05-24T07:57:53.0348835-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="150460d0-b0b3-4b03-b9a9-e4510966acc4">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method NUnitTest.StringCalculatorTest.negatives_not_allowed threw exception: 
+System.Exception: negatives not allowed: 3 4 5 </Message>
+          <StackTrace>    at Calculator.StringCalculator.add(String number) in C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\Calculator\StringCalculator.cs:line 35
+   at NUnitTest.StringCalculatorTest.negatives_not_allowed() in C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\StringCalculatorTest.cs:line 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f087a893-08af-44ec-aaf8-6e93717d9ce7" testId="7611aac2-710c-ca53-b968-e584743eac76" testName="new_lines_between_numbers" computerName="ANDRES-PC" duration="00:00:00.0001934" startTime="2012-05-24T07:57:53.0358836-05:00" endTime="2012-05-24T07:57:53.0398838-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f087a893-08af-44ec-aaf8-6e93717d9ce7">
+    </UnitTestResult>
+    <UnitTestResult executionId="9ff846f2-58e4-4f53-9bdf-b778b854db13" testId="807c457b-2550-9129-3164-14cfd598285d" testName="support_different_delimiters" computerName="ANDRES-PC" duration="00:00:00.0002196" startTime="2012-05-24T07:57:53.0428840-05:00" endTime="2012-05-24T07:57:53.0458842-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9ff846f2-58e4-4f53-9bdf-b778b854db13">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb53d5c2-575e-4952-8d2f-b14d58d3e029" testId="8ba150d3-9f32-7fe0-2510-d0c4df829962" testName="one_number" computerName="ANDRES-PC" duration="00:00:00.0001914" startTime="2012-05-24T07:57:53.0478843-05:00" endTime="2012-05-24T07:57:53.0508845-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb53d5c2-575e-4952-8d2f-b14d58d3e029">
+    </UnitTestResult>
+    <UnitTestResult executionId="20568a2e-f215-46d9-8c72-dcc5a7399d51" testId="b7c03255-b974-aa6e-aa17-c7bdf9a317f1" testName="no_more_than_1000" computerName="ANDRES-PC" duration="00:00:00.0001955" startTime="2012-05-24T07:57:53.0528846-05:00" endTime="2012-05-24T07:57:53.0558847-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20568a2e-f215-46d9-8c72-dcc5a7399d51">
+    </UnitTestResult>
+    <UnitTestResult executionId="1dd71830-d8bf-4805-aa4f-26668ebf50e1" testId="b9cbc5df-4036-ad47-00ce-7fbab9a96fb7" testName="two_numbers" computerName="ANDRES-PC" duration="00:00:00.0001821" startTime="2012-05-24T07:57:53.0578849-05:00" endTime="2012-05-24T07:57:53.0608850-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1dd71830-d8bf-4805-aa4f-26668ebf50e1">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,7 @@
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\bin\Debug\NUnitTest.dll
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\bin\Debug\NUnitTest.pdb
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\bin\Debug\Calculator.dll
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\bin\Debug\Calculator.pdb
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\obj\Debug\NUnitTest.csprojResolveAssemblyReference.cache
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\obj\Debug\NUnitTest.dll
+C:\Users\Andres\Documents\Visual Studio 2010\Projects\Calculator\NUnitTest\obj\Debug\NUnitTest.pdb
